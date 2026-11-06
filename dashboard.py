@@ -112,4 +112,4 @@ while True:
             rise_str = " | ".join([f"{n}:{p:.1f}%" for n,p in record["rise"]])
             st.markdown(f"**{record['time']}** → 📈 {rise_str}")
 
-    time.sleep(10)
+    time.sleep(60)
